@@ -45,3 +45,18 @@ border: none;
 margin-right: 283px;
 margin-top: 32px;
 }
+/* main section starts here  */
+main{
+  max-width: 1600px;
+  margin: auto;
+}
+.main-container{
+  display: flex;
+  margin-top: 140px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-container-description{
+  width: 416px;
+}
