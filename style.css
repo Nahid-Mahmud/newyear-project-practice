@@ -55,6 +55,7 @@ main {
   margin-top: 140px;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 214px;
 }
 
 .main-container-headding {
@@ -74,10 +75,71 @@ main {
 }
 .main-container-list {
   list-style: circle;
-  color: #444343;;
+  color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   padding-left: 20px;
 }
 
+/* plan style  my plans */
+
+.plan-main-headig {
+  text-align: center;
+  color: var #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+.plan-list-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 135px;
+}
+.plans {
+  text-align: center;
+}
+.plan-image {
+  width: 92.958px;
+  height: 92.958px;
+}
+.plan-item-heading {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+.plan-item-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* second banner  */
+
+.second-banner {
+  background-image: url("images/gradient2.png"), url("images/watch.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.second-banner-container {
+  padding: 65px;
+}
+.second-banner-heading {
+  width: 459px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.second-banner-button {
+  border-radius: 5px;
+  background: #fff;
+  width: 160px;
+  height: 64px;
+  color: #F15B22;
+font-size: 20px;
+font-weight: 600;
+border: none;
+}
